@@ -11,9 +11,21 @@ after(()=>fs.rmSync(tmp,{recursive:true,force:true}));
 const read=f=>JSON.parse(fs.readFileSync(f,'utf8'));
 
 test('normal B6 init carries the mature engine, leaves both native plans unapproved, and refuses a placeholder film',async()=>{
-  const dir=path.join(tmp,'new-brief');initB6(dir,'both');
+  const dir=path.join(tmp,'new-brief');const initialized=initB6(dir,'both');
   const p=read(path.join(dir,'project.json'));
   assert.equal(p.renderer,'b6-production-v1');assert.equal(p.purpose,'production');assert(fs.existsSync(path.join(dir,'b6_asset_roles.py')));assert.equal(p.stage,'needs_authoring');
+  const preset=read(path.join(dir,p.creative_preset));
+  const brief=read(path.join(dir,p.creative_brief));
+  assert.equal(preset.name,'Vibrant Wicked Stickman Cinematic');
+  assert.equal(initialized.creative_preset,preset.name);
+  assert.equal(initialized.creative_brief,path.join(dir,p.creative_brief));
+  assert.equal(brief.tone,preset.default_tone);
+  assert(Object.hasOwn(preset.tones,brief.tone));
+  assert.equal(brief.script_path,'source/script.md');
+  assert.equal(brief.voiceover_path,'source/voiceover.mp3');
+  assert.equal(p.voice,null);
+  assert(p.inputs.includes(p.creative_preset));
+  assert(p.inputs.includes(p.creative_brief));
   const provenance=read(path.join(dir,'engine/font-provenance.json'));
   const licenseByFont={'NotoSans.ttf':'source/fonts/OFL-NotoSans.txt','Nunito.ttf':'source/fonts/OFL-Nunito.txt'};
   const licenses=new Set(provenance.fonts.filter(row=>row.kind==='open-fallback').map(row=>licenseByFont[row.fallback_font]));

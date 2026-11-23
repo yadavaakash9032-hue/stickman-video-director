@@ -1,0 +1,43 @@
+{
+  "schema": "b6-creative-preset/1",
+  "id": "vibrant-wicked-stickman-cinematic",
+  "name": "Vibrant Wicked Stickman Cinematic",
+  "default_tone": "balanced",
+  "characters": {
+    "silhouette": "Original large round heads, compact colored bodies, bold charcoal outlines, and thin articulated limbs. Keep proportions stable across frames.",
+    "face": "Use distinct warm face colors, small controlled glossy eye highlights, clear pupils, expressive eyebrows and eyelids. Fit hair, sideburns, curled moustaches, pointed beards, hats, glasses and accessories to individual characters.",
+    "variation": "Give each supporting character distinct posture, face proportions, brows, silhouette and comic timing. Choose costumes, materials and accessories for the setting and period. Dark comic character acting must not imply real historical misconduct.",
+    "expression_palette": ["neutral", "hopeful", "afraid", "sad", "frustrated", "relieved", "vulnerable", "smug", "suspicious", "startled"],
+    "mouth_palette": ["rest", "small-open", "wide-open", "rounded", "closed-lips", "asymmetric-smile", "frown"],
+    "gaze_and_lids": ["center", "left", "right", "half-lid", "blink"]
+  },
+  "acting": {
+    "serious_beats": "Play real stakes sincerely. Hold long enough to read a change in the face, posture or breath, then let the next action carry the cut.",
+    "comic_beats": "Use sarcastic side-eyes, mismatched reactions, awkward holds, double-takes and well-timed micro-expressions. Draw humor from the situation and contrast. Treat grief, vulnerability and suffering with respect.",
+    "speech": "Author changes on the dialogue track for visible speakers. Keep offscreen narration separate from character lip movement."
+  },
+  "editing": {
+    "techniques": ["motivated cuts", "reaction inserts", "snap zooms", "whip pans", "dramatic reframing", "anticipation and quick settle"],
+    "rhythm": "Start with a clear visual hook. Cut on changes in information, action and reaction. Give serious moments room to land. Reserve fast camera accents for specific reveals or punchlines.",
+    "continuity": "Carry the viewer's attention through cuts with eyelines, legible screen direction, and clear hand and prop ownership. Use fitted 2D views and appropriate camera overscan."
+  },
+  "environment": {
+    "look": "Detailed original sets, warm golden and amber lighting, vivid accent colors, restrained silver and gold glints, and readable shadows. Match costumes, props and architecture to the setting.",
+    "depth": "Design separate foreground, midground and background layers, with contact shadows and different parallax rates. Provide overscan for the planned camera movement.",
+    "readability": "Use lighting and contrast to keep eyes, mouths, hands and important props easy to read on a phone. Keep an uncluttered area for captions."
+  },
+  "tones": {
+    "balanced": "Sincere stakes with selective comic reactions. Shape the mix around the story's turning points.",
+    "emotional": "Favor quiet acting, open framing and readable holds. Let tension release through a supporting reaction or an absurd situation.",
+    "funny": "Use quick setups, firm pauses and sharp reactions. Alternate escalation with quiet beats so punchlines have contrast.",
+    "mystery": "Reveal clues through framing, parallax and controlled light. Preserve uncertainty and use dry reaction beats after reveals.",
+    "historical": "Check costumes, props, architecture and factual claims for the period. Aim comedy at the documented situation. Keep invented acting visually distinct from factual evidence.",
+    "educational": "Make the concept and cause-and-effect readable first. Use comedic examples and reactions where they clarify or punctuate an explanation.",
+    "dramatic": "Prioritize reversals, eyelines and changes in power. Use occasional nervous or dry humor while preserving the consequences."
+  },
+  "delivery": {
+    "captions": "Use the installed B6 caption profile for the chosen native ratio. Align semantic captions to the spoken words and review legibility on a phone.",
+    "narration": "Use the supplied approved voiceover at original speed. Time shot changes, facial reactions and visible dialogue to the actual recording. Keep narration clear over effects and music.",
+    "review": "Check original asset provenance, fitted views, visible limbs and contact, expression timing, caption safety, complete decode and audiovisual continuity from the rendered preview."
+  }
+}
