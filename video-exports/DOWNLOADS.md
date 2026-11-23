@@ -155,3 +155,11 @@ Each link points to the original bytes on GitHub.
 | [project-art/b6-snack-alert/characters/neel/cuff-left.png](<https://raw.githubusercontent.com/yadavaakash9032-hue/stickman-video-director/video-downloads/video-exports/project-art/b6-snack-alert/characters/neel/cuff-left.png>) | 201 |
 | [project-art/b6-snack-alert/characters/neel/cuff-right.png](<https://raw.githubusercontent.com/yadavaakash9032-hue/stickman-video-director/video-downloads/video-exports/project-art/b6-snack-alert/characters/neel/cuff-right.png>) | 168 |
 | [project-art/b6-snack-alert/characters/neel/head.png](<https://raw.githubusercontent.com/yadavaakash9032-hue/stickman-video-director/video-downloads/video-exports/project-art/b6-snack-alert/characters/neel/head.png>) | 76,540 |
+
+## Charity Snider design options
+
+| File | Bytes |
+| --- | ---: |
+| [charity-snider/A-Lamplight.png](<https://raw.githubusercontent.com/yadavaakash9032-hue/stickman-video-director/video-downloads/video-exports/charity-snider/A-Lamplight.png>) | 1,793,179 |
+| [charity-snider/B-Ink-and-Ivory.png](<https://raw.githubusercontent.com/yadavaakash9032-hue/stickman-video-director/video-downloads/video-exports/charity-snider/B-Ink-and-Ivory.png>) | 1,725,049 |
+| [charity-snider/C-Winter-Post.png](<https://raw.githubusercontent.com/yadavaakash9032-hue/stickman-video-director/video-downloads/video-exports/charity-snider/C-Winter-Post.png>) | 1,822,344 |
